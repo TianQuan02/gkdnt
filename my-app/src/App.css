@@ -1,0 +1,111 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: sans-serif;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.calculate-button, .camera-button, .share-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.calculate-button:hover, .camera-button:hover, .share-button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 30px;
+  text-align: center;
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.result h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.result p {
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.bmi-value {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.bmi-evaluation {
+  font-weight: bold;
+  color: green; /* Bạn có thể thay đổi màu sắc tùy theo đánh giá */
+}
+
+.image-preview {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.image-preview h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.camera-button {
+  background-color: #28a745; /* Màu xanh lá cây cho nút chụp ảnh */
+}
+
+.camera-button:hover {
+  background-color: #1e7e34;
+}
+
+.share-button {
+  background-color: #6c757d; /* Màu xám cho nút chia sẻ */
+}
+
+.share-button:hover {
+  background-color: #5a6268;
+}
